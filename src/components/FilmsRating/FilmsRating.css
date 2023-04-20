@@ -1,0 +1,84 @@
+.films-container-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center;
+    margin-top: 5%;
+}
+.film-item-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 600px;
+    border: 1px solid black;
+}
+.film-item-img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -25px;
+    width: 31%;
+}
+.film-item-img-wrap img {
+    position: relative;
+    max-width: 150px;
+    max-height: 200px;
+    z-index: 0;
+    filter:brightness(0.8);
+}
+.film-item-img-genre {
+    top: 8%;
+    position: absolute;
+    background-color: orange;
+    color: white;
+    right: 8%;
+    font-size: 14px;
+}
+
+.film-item-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 2%;
+}
+.film-item-icons-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15%;
+}
+.film-icons-fav-wrap, .film-icons-share-wrap {
+    margin-top: 10px;
+}
+.film-item-stars-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.film-item-control-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.film-item-buy-btn-wrap, .film-item-info-btn-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 45%;
+    margin: 2% 1%;
+}
+.card-body-stars {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
