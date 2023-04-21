@@ -16,6 +16,7 @@
     min-height: 200px;
     max-height: 600px;
     border: 1px solid black;
+    margin-bottom: 40px;
 }
 .film-item-img-wrap {
     display: flex;
